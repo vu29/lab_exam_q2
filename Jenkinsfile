@@ -3,12 +3,12 @@ pipeline {
     stages { 
         stage('sample1') {
           steps {
-            echo 'summition'
+            echo 'Building...'
           }
         }
         stage('sample 2') { 
             steps { 
-               echo 'addition...' 
+               echo 'printing req. data..' 
                sh 'python solution.py'
             }
         }
